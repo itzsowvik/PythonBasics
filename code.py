@@ -1,3 +1,10 @@
-from math import *
+name = input("Enter your name: ")
 
-print (sqrt(2))
+age =  int(input("Enter your Age: "))
+
+if(name == "Sowvik" and age > 23):
+    print("You are Sowvik Sarker")
+elif(name == "Jacob" and age >= 25):
+    print("You are Jacob")
+else:
+    print("We Dont Know You idiot")
