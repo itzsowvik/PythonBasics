@@ -1,3 +1,4 @@
 # PythonBasics
-Just Learning python basics for Deep Learning\
-Hope I will enjoy it!
+Just Learning python basics for Deep Learning
+
+শিক্ষার কোন বয়স নাই, চলো সবাই পড়তে যাই!
