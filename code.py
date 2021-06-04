@@ -1,7 +1,5 @@
-def name_input():
-    data = input("What's Your Name?: ")
-    return data;
+def name_input(name):
+    print(f"Your Name is {name} ")
 
 
-res = name_input();
-print(res)
+name_input("Sowvik Sarker");
