@@ -1,11 +1,3 @@
-secret_word = "sowvik"
-guess = ""
+import module_file as mf
 
-while 1:
-    guess = input("Enter Your Guess: ")
-    if(guess != secret_word):
-        print("Invalid Input: ")
-        continue
-    else:
-        print("You Win!!")
-        
+print(mf.factorial(100))
