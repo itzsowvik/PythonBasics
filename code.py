@@ -1,3 +1,5 @@
-import module_file as mf
+from personal_info import Personal_info
 
-print(mf.factorial(100))
+pi = Personal_info("Sowvik", "Dhaka", 123456, 23)
+
+print(pi.name)
