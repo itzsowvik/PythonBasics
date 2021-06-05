@@ -1,12 +1,11 @@
-month_name = {
-    1 : "January",
-    2 : "February",
-    3 : "March",
-    4 : "April",
-    5 : "May",
-    6 : "June"
-}
+secret_word = "sowvik"
+guess = ""
 
-print("Key ==> Value")
-for key in month_name:
-    print(str(key)+"   ==>  "+month_name[key])
+while 1:
+    guess = input("Enter Your Guess: ")
+    if(guess != secret_word):
+        print("Invalid Input: ")
+        continue
+    else:
+        print("You Win!!")
+        
